@@ -16,7 +16,23 @@ body {
 /* Header */
 header {
     background-color: blanchedalmond;
+}
 
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav > ul {
+    padding: 10px;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.logo {
+    order: 1;
 }
 
 /* Main */
