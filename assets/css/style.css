@@ -21,10 +21,15 @@ header {
 nav {
     display: flex;
     align-items: center;
+    padding: 10px;
 }
 
-nav > ul {
-    padding: 10px;
+header a {
+    text-decoration: none;
+}
+
+header h1 {
+    justify-content: flex-end;
 }
 
 .nav-links {
@@ -37,6 +42,10 @@ nav > ul {
 
 #menu-toggle {
     display: none; /* hide checkbox by default */
+}
+
+#menu-toggle-label {
+    font-size: 3em;
 }
 
 /* Main */
