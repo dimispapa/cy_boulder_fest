@@ -28,11 +28,15 @@ nav > ul {
 }
 
 .nav-links {
-    list-style: none;
+    list-style: none; /* hide list bullets */
 }
 
 .logo {
-    order: 1;
+    order: 1; /* bring logo after the menu nav */
+}
+
+#menu-toggle {
+    display: none; /* hide checkbox by default */
 }
 
 /* Main */
