@@ -1,0 +1,24 @@
+/* General wildcard styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+header {
+    background-color: blanchedalmond;
+    color: darkslategray;
+}
+
+/* Main */
+main {
+    background-color: khaki;
+    color: darkslategray;
+}
+
+/* Footer */
+footer {
+    background-color: linen;
+    color: darkslateblue;
+}
