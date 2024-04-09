@@ -19,6 +19,9 @@ header {
     display: flex;
     width: 100%;
     position: fixed;
+    height: 85px;
+    align-items: center;
+    border: darkslategray solid;
 }
 
 nav {
@@ -37,7 +40,8 @@ header a {
 header h3 {
     justify-content: flex-end;
     padding: 10px;
-    /* width: 70% */
+    width: 30%;
+    /* flex: 1; */
 }
 
 .nav-links {
@@ -55,7 +59,6 @@ header h3 {
 .menu-icon {
     font-size: 2.5em;
     padding-left: 10px;
-    align-content:center;
 }
 
 /* When the menu-toggle checkbox is checked, show the nav-links */
@@ -67,6 +70,7 @@ header h3 {
 main {
     background-color: khaki;
     flex: 1; /* allow main section to take over surplus space */
+    margin-top: 85px;
 }
 
 /* Footer */
