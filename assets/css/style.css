@@ -26,10 +26,11 @@ nav {
     align-items: center;
     padding: 10px;
     font-size: large;
+    /* position: absolute; */
 }
 
 header a {
-    text-decoration: none;
+    text-decoration: none; /* remove underline of links */
 }
 
 header h3 {
@@ -49,14 +50,16 @@ header h3 {
     display: none; /* hide checkbox by default */
 }
 
-#menu-toggle-label {
-    font-size: 3em;
+.menu-icon {
+    font-size: 2.5em;
+    padding-left: 10px;
+    align-content:center;
 }
 
-/* When the menu-toggle checkbox is checked, show the nav-links
+/* When the menu-toggle checkbox is checked, show the nav-links */
 #menu-toggle:checked + .menu-icon + nav .nav-links {
   display: block;
-} */
+}
 
 /* Main */
 main {
