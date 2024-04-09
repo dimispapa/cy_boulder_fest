@@ -22,11 +22,12 @@ header {
 }
 
 nav {
-    display: flex;
+    display: none;
     align-items: center;
     padding: 10px;
     font-size: large;
     /* position: absolute; */
+
 }
 
 header a {
@@ -36,6 +37,7 @@ header a {
 header h3 {
     justify-content: flex-end;
     padding: 10px;
+    /* width: 70% */
 }
 
 .nav-links {
@@ -57,7 +59,7 @@ header h3 {
 }
 
 /* When the menu-toggle checkbox is checked, show the nav-links */
-#menu-toggle:checked + .menu-icon + nav .nav-links {
+#menu-toggle:checked + .menu-icon + nav {
   display: block;
 }
 
