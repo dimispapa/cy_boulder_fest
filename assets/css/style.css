@@ -16,20 +16,25 @@ body {
 /* Header */
 header {
     background-color: blanchedalmond;
+    display: flex;
+    width: 100%;
+    position: fixed;
 }
 
 nav {
     display: flex;
     align-items: center;
     padding: 10px;
+    font-size: large;
 }
 
 header a {
     text-decoration: none;
 }
 
-header h1 {
+header h3 {
     justify-content: flex-end;
+    padding: 10px;
 }
 
 .nav-links {
@@ -47,6 +52,11 @@ header h1 {
 #menu-toggle-label {
     font-size: 3em;
 }
+
+/* When the menu-toggle checkbox is checked, show the nav-links
+#menu-toggle:checked + .menu-icon + nav .nav-links {
+  display: block;
+} */
 
 /* Main */
 main {
