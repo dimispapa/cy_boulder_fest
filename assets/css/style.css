@@ -17,8 +17,9 @@ body {
     display: flex;
     flex-direction: column;
     color: darkslategray;
-    min-height: 100vh;
     /* body occupies at least the height of the viewport */
+    min-height: 100vh;
+    /* general font styles */
     font-family: "Khula", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -28,7 +29,6 @@ h1 {
     font-family: "Lato", sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 1.5rem;
 }
 
 /* Header */
@@ -37,56 +37,59 @@ header {
     display: flex;
     width: 100%;
     position: fixed;
+    border-top: darkslategray solid;
+    border-bottom: darkslategray solid;
+    justify-content: space-around;
     align-items: center;
-    border: darkslategray solid;
-    
+    padding: 5px;
 }
 
 nav {
     display: none;
-    align-items: inherit;
-    padding: 5px;
-    /* position: absolute; */
+    position: absolute;
+    padding-right: 5px;
+    text-align: right;
+    /* font */
     font-family: "Lato", sans-serif;
     font-weight: 400;
     font-style: normal;
-    order: 3; /* Push the nav to the last in the visual order */
-    flex: 1; /* Allow the nav to grow to fill remaining space */
-    justify-content: flex-end;
-    position: absolute;
-    bottom: 0%
+    top: 100%;
+    right: 0;
+    background-color: blanchedalmond;
+    border-bottom: darkslategray solid;
+    width: 100%;
 }
 
 header a {
-    text-decoration: none;
     /* remove underline of links */
+    text-decoration: none;
 }
 
 header h1 {
-    justify-content: flex-start;
-    padding: 5px;
-    flex: 2
+    font-size: 1.2rem;
 }
 
 .nav-links {
-    list-style: none;
     /* hide list bullets */
+    list-style: none;
+    letter-spacing: 0.3rem;
+}
+
+.nav-links > li {
+    margin-bottom: 0.5rem;
 }
 
 #menu-toggle {
-    display: none;
     /* hide checkbox by default */
+    display: none;
 }
 
 .menu-icon {
-    display: flex;
-    align-items: center;
-    font-size: 3em;
-    padding: 5px;
-    cursor: pointer;
+    font-size: 1.5rem;
+    display: inherit;
 }
 
-/* When the menu-toggle checkbox is checked, show the nav-links */
+/* When the menu-toggle checkbox is checked, show the nav */
 #menu-toggle:checked+.menu-icon+nav {
     display: block;
 }
@@ -94,9 +97,9 @@ header h1 {
 /* Main */
 main {
     background-color: khaki;
-    flex: 1;
     /* allow main section to take over surplus space */
-    margin-top: 85px;
+    flex: 1;
+    margin-top: 61px;
 }
 
 /* Footer */
