@@ -136,8 +136,13 @@ main {
     margin: 5px 0;
 }
 
-#programme > p {
+#programme>p {
     padding-left: 15px;
+}
+
+#programme>li,
+#programme>p {
+    font-size: 0.8rem;
 }
 
 /* add breathing space to the icons in the main */
@@ -146,9 +151,9 @@ main i {
 }
 
 /* remove bullet points to replace with icons */
-ul.icon, ol.icon
-{
-	list-style-type: none;
+ul.icon,
+ol.icon {
+    list-style-type: none;
 }
 
 /* Footer */
