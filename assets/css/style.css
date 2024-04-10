@@ -114,6 +114,15 @@ main {
     margin-top: 37px;
 }
 
+main h2 {
+    padding: 5px;
+}
+
+/* add breathing space to the icons in the main */
+main i {
+    padding-right: 5px;
+}
+
 /* Footer */
 footer {
     background-color: linen;
