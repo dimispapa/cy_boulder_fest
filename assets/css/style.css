@@ -112,10 +112,7 @@ main {
     /* allow main section to take over surplus space */
     flex: 1;
     margin-top: 37px;
-}
-
-main h2 {
-    padding: 5px;
+    padding: 10px
 }
 
 /* add breathing space to the icons in the main */
