@@ -67,7 +67,7 @@ header a {
 }
 
 header h1 {
-    font-size: 1.2rem;
+    font-size: 120%;
     color: darkslategray;
 }
 
@@ -87,7 +87,7 @@ header h1 {
 }
 
 .menu-icon {
-    font-size: 1.5rem;
+    font-size: 2rem;
     display: inherit;
 }
 
@@ -111,7 +111,7 @@ main {
     background-color: ghostwhite;
     /* allow main section to take over surplus space */
     flex: 1;
-    margin-top: 37px;
+    margin-top: 45px;
     padding: 5px
 }
 
