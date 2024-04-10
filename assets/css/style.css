@@ -39,7 +39,7 @@ header {
     position: fixed;
     border-top: darkslategray solid;
     border-bottom: darkslategray solid;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding: 5px;
 }
@@ -116,6 +116,10 @@ main {
 }
 
 /* About section */
+#key-info {
+    border-top: groove;
+    border-bottom: groove;
+}
 
 /* make the bullet points/numbers of lists nested inside the block element */
 #key-info ul,
@@ -126,6 +130,10 @@ main {
 /* further indent nested ordered list */
 #programme {
     padding-left: 20px;
+}
+
+#key-info i {
+    margin: 5px 0;
 }
 
 #programme > p {
