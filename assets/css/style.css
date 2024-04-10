@@ -137,6 +137,12 @@ main i {
     padding-right: 5px;
 }
 
+/* remove bullet points to replace with icons */
+ul.icon, ol.icon
+{
+	list-style-type: none;
+}
+
 /* Footer */
 footer {
     background-color: linen;
