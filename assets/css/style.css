@@ -77,7 +77,7 @@ header h1 {
     letter-spacing: 0.3rem;
 }
 
-.nav-links > li {
+.nav-links>li {
     margin-bottom: 0.5rem;
 }
 
@@ -117,9 +117,19 @@ main {
 
 /* About section */
 
-/* indent key info section and further indent nested ordered list */
-#key-info, #programme {
+/* make the bullet points/numbers of lists nested inside the block element */
+#key-info ul,
+#key-info ol {
+    list-style-position: inside;
+}
+
+/* further indent nested ordered list */
+#programme {
     padding-left: 20px;
+}
+
+#programme > p {
+    padding-left: 15px;
 }
 
 /* add breathing space to the icons in the main */
