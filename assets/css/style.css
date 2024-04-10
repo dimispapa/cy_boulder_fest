@@ -99,7 +99,7 @@ main {
     background-color: khaki;
     /* allow main section to take over surplus space */
     flex: 1;
-    margin-top: 61px;
+    margin-top: 37px;
 }
 
 /* Footer */
