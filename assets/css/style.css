@@ -106,13 +106,20 @@ header h1 {
     display: block;
 }
 
-/* Main */
+/* Main content */
 main {
     background-color: ghostwhite;
     /* allow main section to take over surplus space */
     flex: 1;
     margin-top: 37px;
-    padding: 10px
+    padding: 5px
+}
+
+/* About section */
+
+/* indent key info section and further indent nested ordered list */
+#key-info, #programme {
+    padding-left: 20px;
 }
 
 /* add breathing space to the icons in the main */
