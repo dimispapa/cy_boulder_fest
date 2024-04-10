@@ -63,10 +63,12 @@ nav {
 header a {
     /* remove underline of links */
     text-decoration: none;
+    color: darkslategray;
 }
 
 header h1 {
     font-size: 1.2rem;
+    color: darkslategray;
 }
 
 .nav-links {
@@ -87,6 +89,16 @@ header h1 {
 .menu-icon {
     font-size: 1.5rem;
     display: inherit;
+}
+
+/* underline active menu item */
+.active {
+    text-decoration: underline;
+}
+
+/* make menu items bold when hovering over */
+.nav-links li a:hover {
+    font-weight: bolder;
 }
 
 /* When the menu-toggle checkbox is checked, show the nav */
