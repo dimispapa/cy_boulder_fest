@@ -38,7 +38,6 @@ header {
     width: 100%;
     position: fixed;
     border-top: darkslategray solid;
-    border-bottom: darkslategray solid;
     justify-content: space-between;
     align-items: center;
     padding: 5px;
@@ -114,6 +113,7 @@ main {
     /* allow main section to take over surplus space */
     flex: 1;
     margin-top: 45px;
+    border-top: darkslategray solid;
 }
 
 /* Hero section */
@@ -188,6 +188,13 @@ picture>source,
 picture>img {
     max-width: 100vw;
     height: auto;
+}
+
+/* target links to registration */
+#flyer a {
+    text-align: center;
+    text-shadow: 0px 0px 2px #3d60d2;
+    color: #3d60d2;
 }
 
 /* Footer */
