@@ -42,6 +42,8 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 5px;
+    /* to bring the menu dropdown infront of the hero image */
+    z-index: 99;
 }
 
 nav {
@@ -112,10 +114,21 @@ main {
     /* allow main section to take over surplus space */
     flex: 1;
     margin-top: 45px;
-    padding: 5px
+}
+
+/* Hero section */
+#hero {
+    height: 400px;
+    width: 100%;
+    background: url("../images/BoulderingBook_PanoAkamas_20240316_SR_001.webp") no-repeat center center/cover;
+    position: relative;
 }
 
 /* About section */
+#about {
+    padding: 5px;
+}
+
 #key-info {
     border-top: groove;
     border-bottom: groove;
