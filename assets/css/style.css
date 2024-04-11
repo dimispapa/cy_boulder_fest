@@ -1,5 +1,5 @@
 /* Import Fonts from Google */
-@import url('https://fonts.googleapis.com/css2?family=Khula:wght@300;400;600;700;800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Khula:wght@300;400;600;700;800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Raleway:ital@0;1&display=swap');
 
 /* General wildcard styles to override browser defaults */
 * {
@@ -122,6 +122,22 @@ main {
     width: 100%;
     background: url("../images/BoulderingBook_PanoAkamas_20240316_SR_001.webp") no-repeat center center/cover;
     position: relative;
+}
+
+#hero-text {
+    font-size: 70%;
+    width: 100%;
+    border-radius: 5%;
+    padding: 5px;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    background-color: rgba(225, 236, 248, 0.4);
+}
+
+#hero-text > h2 {
+    padding-bottom: inherit;
 }
 
 /* About section */
