@@ -136,7 +136,7 @@ main {
     background-color: rgba(225, 236, 248, 0.4);
 }
 
-#hero-text > h2 {
+#hero-text>h2 {
     padding-bottom: inherit;
 }
 
@@ -179,6 +179,15 @@ main i {
 ul.icon,
 ol.icon {
     list-style-type: none;
+}
+
+/* Flyer section */
+/* ensure picture element does not create horizontal scrolling.
+take up only as much as the width of screen but keep the aspect ratio */
+picture>source,
+picture>img {
+    max-width: 100%;
+    height: auto;
 }
 
 /* Footer */
