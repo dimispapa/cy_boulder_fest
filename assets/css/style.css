@@ -186,7 +186,7 @@ ol.icon {
 take up only as much as the width of screen but keep the aspect ratio */
 picture>source,
 picture>img {
-    max-width: 100%;
+    max-width: 100vw;
     height: auto;
 }
 
