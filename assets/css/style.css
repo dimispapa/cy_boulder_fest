@@ -199,25 +199,25 @@ picture>img {
 
 /* Footer */
 footer {
-    background-color: linen;
-    color: darkslateblue;
+    background-color: blanchedalmond;
+    color: darkslategray;
+    border-top: solid darkslategray;
     width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 5px;
 }
 
 /* Copyright */
 #copyright {
     width: 40%;
-    /* align-self: center; */
 }
 
 /* Social network icons */
 #social-icons {
     width: 40%;
     font-size: 130%;
-    /* align-self: center; */
 }
 
 #social-icons li {
