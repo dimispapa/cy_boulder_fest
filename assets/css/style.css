@@ -201,4 +201,41 @@ picture>img {
 footer {
     background-color: linen;
     color: darkslateblue;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Copyright */
+#copyright {
+    width: 40%;
+    /* align-self: center; */
+}
+
+/* Social network icons */
+#social-icons {
+    width: 40%;
+    font-size: 130%;
+    /* align-self: center; */
+}
+
+#social-icons li {
+    /* display icons in same line which also removes bullets */
+    display: inline-block;
+    margin: 0 5px;
+}
+
+/* target last icon to remove margin on right */
+#social-icons li:last-child {
+    margin-right: 0;
+}
+
+/* Contact info */
+#contact li {
+    list-style: none;
+}
+
+#contact {
+    width: 30%;
 }
