@@ -76,6 +76,7 @@ header h1 {
     /* hide list bullets */
     list-style: none;
     letter-spacing: 0.1rem;
+    padding-top: 5px;
 }
 
 .nav-links>li {
