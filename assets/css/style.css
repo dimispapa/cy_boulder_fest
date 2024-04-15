@@ -113,7 +113,6 @@ main {
     background-color: ghostwhite;
     /* allow main section to take over surplus space */
     flex: 1;
-    border-top: darkslategray solid;
 }
 
 /* Hero section */
