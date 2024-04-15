@@ -16,7 +16,7 @@ html {
 body {
     display: flex;
     flex-direction: column;
-    color: darkslategray;
+    color: white;
     /* body occupies at least the height of the viewport */
     min-height: 100vh;
     /* general font styles */
@@ -33,13 +33,14 @@ h1 {
 
 /* Header */
 header {
-    background-color: blanchedalmond;
+    background-color: #140a58;
     display: flex;
     width: 100%;
     position: sticky;
     top: 0;
     left: 0;
     border-top: darkslategray solid;
+    border-bottom: darkslategray solid;
     justify-content: space-between;
     align-items: center;
     padding: 5px;
@@ -200,8 +201,8 @@ picture>img {
 
 /* Footer */
 footer {
-    background-color: blanchedalmond;
-    color: darkslategray;
+    background-color: #140a58;
+    color: white;
     border-top: solid darkslategray;
     width: 100%;
     display: flex;
