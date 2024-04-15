@@ -16,7 +16,7 @@ html {
 body {
     display: flex;
     flex-direction: column;
-    color: white;
+    color: #140a58;
     /* body occupies at least the height of the viewport */
     min-height: 100vh;
     /* general font styles */
