@@ -233,6 +233,10 @@ footer {
     margin: 0 5px;
 }
 
+#social-icons i {
+    color: white;
+}
+
 /* target last icon to remove margin on right */
 #social-icons li:last-child {
     margin-right: 0;
