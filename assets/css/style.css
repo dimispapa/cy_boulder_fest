@@ -80,7 +80,11 @@ header h1 {
 
 .nav-links>li {
     margin-bottom: 0.5rem;
-    color: #140a58
+    color: #140a58;
+}
+
+.nav-links a {
+    color: #140a58;
 }
 
 #menu-toggle {
