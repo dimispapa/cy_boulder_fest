@@ -80,7 +80,6 @@ header h1 {
 
 .nav-links>li {
     margin-bottom: 0.5rem;
-    color: #140a58;
 }
 
 .nav-links a {
@@ -202,8 +201,7 @@ picture>img {
 /* target links to registration */
 #flyer a {
     text-align: center;
-    text-shadow: 0px 0px 2px #3d60d2;
-    color: #3d60d2;
+    text-shadow: 0px 0px 1px #140a58;
 }
 
 /* Footer */
