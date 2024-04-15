@@ -46,7 +46,32 @@
 
     <!-- Main Content -->
     <main>
-
+        <div class="registration-form">
+            <h2>Festival Registration</h2>
+            <form action="#" method="post">
+                <!-- Team name text -->
+                <label for="team-name">Team Name:</label>
+                <input type="text" id="team-name" name="team_name" required>
+                <br>
+                <!-- Team size dropdown -->
+                <label for="team-size">Team Size:</label>
+                <select id="team-size" name="team_size" required>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
+                <br>
+                <!-- Team captain text -->
+                <label for="team-captain">Team Captain:</label>
+                <input type="text" id="team-captain" name="team_captain" required>
+                <br>
+                <!-- Email -->
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
     </main>
 
     <!-- Footer -->
