@@ -127,15 +127,20 @@ main {
 }
 
 #hero-text {
-    font-size: 70%;
-    width: 100%;
+    font-size: 60%;
+    width: 50%;
+    position: relative;
+    top: 68%;
+    left: 30%;
+    text-align: center;
     border-radius: 5%;
-    padding: 10px 5px;
+    padding: 10px 10px;
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    background-color: rgba(225, 236, 248, 0.4);
+    background-color: rgb(20 11 88 / 40%);
+    color: white;
 }
 
 #hero-text>h2 {
