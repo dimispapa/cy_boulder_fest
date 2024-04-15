@@ -144,10 +144,6 @@ main {
     line-height: 130%;
 }
 
-#hero-text>h2 {
-    padding-bottom: inherit;
-}
-
 /* About section */
 #about {
     padding: 5px;
@@ -156,6 +152,10 @@ main {
 #key-info {
     border-top: groove;
     border-bottom: groove;
+}
+
+#intro {
+    margin-bottom: 10px;
 }
 
 /* make the bullet points/numbers of lists nested inside the block element */
