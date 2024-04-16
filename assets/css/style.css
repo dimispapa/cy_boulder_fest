@@ -206,6 +206,10 @@ picture>img {
 }
 
 /* Registration page */
+#form-signup {
+    padding-top: 5px;
+}
+
 #registration-form {
     padding: 5px;
 }
