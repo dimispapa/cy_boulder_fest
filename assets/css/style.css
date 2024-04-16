@@ -212,10 +212,12 @@ picture>img {
     background-size: cover;
     background-position: 50%;
     min-height:100vh;
+    color: white;
 }
 
 #form-signup {
     padding-top: 5px;
+    background-color: rgb(20 11 88 / 40%);
 }
 
 #registration-form > h2 {
