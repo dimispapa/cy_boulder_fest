@@ -210,6 +210,10 @@ picture>img {
     padding: 5px;
 }
 
+#registration-form > h2 {
+    font-size: medium;
+}
+
 /* Footer */
 footer {
     background-color: #140a58;
