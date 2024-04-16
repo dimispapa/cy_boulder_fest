@@ -109,15 +109,22 @@
             <a href="registration.html">
                 <h3>Register for the upcoming event!</h3>
             </a>
+            <!-- flyer picture element -->
             <picture>
-                <source media="(min-width: 992px)" srcset="assets/images/1200-x-630-_facebook-post_.webp">
+                <!-- desktop img -->
+                <source media="(min-width: 992px)" srcset="assets/images/flyer-1920x1920-square.webp">
+                <!-- tablet portrait img -->
                 <source media="(min-width: 768px) and (orientation: portrait)"
-                    srcset="assets/images/1920x1920-_IG-post-_square__.webp">
+                    srcset="assets/images/flyer-1920x1920-square.webp">
+                <!-- tablet landscape img -->
                 <source media="(min-width: 768px) and (orientation: landscape)"
-                    srcset="assets/images/1200-x-630-_facebook-post_.webp">
-                <source media="(orientation: portrait)" srcset="assets/images/1080x1920-_IG-Story_.webp">
-                <source media="(orientation: landscape)" srcset="assets/images/1920x1920-_IG-post-_square__.webp">
-                <img src="assets/images/1920x1920 (IG post [square]).png"
+                    srcset="assets/images/flyer-1200x630-wide-info.webp">
+                <!-- mobile portrait img -->
+                <source media="(orientation: portrait)" srcset="assets/images/flyer-1080x1920-portrait.webp">
+                <!-- mobile landscape img -->
+                <source media="(orientation: landscape)" srcset="assets/images/flyer-1920x1920-square.webp">
+                <!-- fallback img -->
+                <img src="assets/images/flyer-1920x1920-square.png"
                     alt="Event flyer showing a climber on a boulder and general festival info">
             </picture>
             <a href="registration.html">
