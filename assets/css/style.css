@@ -216,12 +216,15 @@ picture>img {
 }
 
 #form-signup {
-    padding-top: 5px;
+    padding-top: 10px;
     background-color: rgb(20 11 88 / 40%);
+    width: 75%;
+    padding: 10px;
 }
 
 #registration-form > h2 {
     font-size: medium;
+    text-align: center;
 }
 
 #radio {
