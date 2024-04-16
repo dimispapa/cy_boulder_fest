@@ -214,6 +214,10 @@ picture>img {
     font-size: medium;
 }
 
+#radio {
+    margin-top: 10px;
+}
+
 /* Footer */
 footer {
     background-color: #140a58;
