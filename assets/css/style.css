@@ -206,12 +206,16 @@ picture>img {
 }
 
 /* Registration page */
-#form-signup {
-    padding-top: 5px;
-}
-
 #registration-form {
     padding: 5px;
+    background: url("../images/bouldering-woman-action-portrait.webp");
+    background-size: cover;
+    background-position: 50%;
+    min-height:100vh;
+}
+
+#form-signup {
+    padding-top: 5px;
 }
 
 #registration-form > h2 {
