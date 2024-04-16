@@ -212,24 +212,54 @@ picture>img {
     background-size: cover;
     background-position: 50%;
     min-height:100vh;
-    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: center;
 }
 
+/* signup form */
 #form-signup {
     padding-top: 10px;
     background-color: rgb(20 11 88 / 40%);
     width: 75%;
     padding: 10px;
+    color: white;
 }
 
+/* form heading */
 #registration-form > h2 {
     font-size: medium;
     text-align: center;
+    font-weight: bolder;
 }
 
 #radio {
-    margin-top: 10px;
+    margin: 10px 0;
 }
+
+/* dropdown */
+#team-size {
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 2px;
+    height: 25.5px;
+    width: fit-content;
+    margin: 5px 0 15px;
+}
+
+/* text inputs */
+.input-text {
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 2px;
+    height: 25.5px;
+    width: 100%;
+    margin: 5px 0 15px;
+}
+
 
 /* Footer */
 footer {
