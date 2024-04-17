@@ -335,3 +335,49 @@ footer {
 #contact {
     width: 30%;
 }
+
+/* Media query: tablets and larger (>=768px) */
+@media screen and (min-width: 768px) {
+
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+        background-color: #140a58;
+    }
+
+    .nav-links {
+        display: flex;
+    }
+
+    .nav-links a {
+        padding-left: 1rem;
+        color: white;
+        font-size: 120%;
+    }
+
+    .menu-icon {
+        display: none;
+    }
+
+    .logo {
+        font-size: 200%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+
+    /* Hero text */
+    #hero-text {
+        width: 30%;
+        font-size: 130%
+    }
+    
+    /* About section */
+    #about {
+        font-size: 150%;
+    }
+
+}
