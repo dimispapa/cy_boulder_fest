@@ -380,4 +380,24 @@ footer {
         font-size: 150%;
     }
 
+    /* Register page */
+    #form-signup {
+        width: 50%;
+        font-size: 150%;
+    }
+
+    #registration-form>h2{
+        font-size: x-large;
+    }
+
+    #submit-btn {
+        font-size: larger;
+    }
+
+    /* Gallery page */
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
+
 }
