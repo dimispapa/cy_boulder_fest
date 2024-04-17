@@ -401,3 +401,18 @@ footer {
     }
 
 }
+
+/* Media query: laptops and larger (>=992px) */
+@media screen and (min-width: 992px) {
+
+    /* Register page */
+    #form-signup {
+        width: 30%;
+        margin-right: 30px;
+    }
+
+    /* Gallery */
+    #photos {
+        column-count: 4;
+    }
+}
