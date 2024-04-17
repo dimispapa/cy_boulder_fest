@@ -178,7 +178,7 @@ main {
     margin: 5px 0;
 }
 
-#programme>p {
+.sub-li {
     padding-left: 15px;
     font-size: 0.8rem;
 }
@@ -217,7 +217,7 @@ picture>img {
 .link-btn > h3 {
     background-color: #140a58;
     color: white;
-    padding: 10px 10px;
+    padding: 10px;
     box-shadow: 0.2rem 0.2rem black;
 }
 
@@ -374,10 +374,15 @@ footer {
         width: 30%;
         font-size: 130%
     }
+
+    #hero {
+        height: 30vh
+    }
     
     /* About section */
     #about {
         font-size: 150%;
+        padding: 10vw
     }
 
     /* Register page */
@@ -403,7 +408,18 @@ footer {
 }
 
 /* Media query: laptops and larger (>=992px) */
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 992px) {  
+
+    /* index */
+    /* hero */
+    #hero-text {
+        width: 20%;
+        font-size: 150%;
+    }
+
+    #hero {
+        height: 40vh;
+    }
 
     /* Register page */
     #form-signup {
@@ -414,5 +430,104 @@ footer {
     /* Gallery */
     #photos {
         column-count: 4;
+    }
+
+    /* Footer */
+    footer {
+        font-size: 130%;
+        padding: 40px;
+    }
+}
+
+/* Media query: larger laptop/desktop screens (>=1440px) */
+@media screen and (min-width: 1440px) {
+
+    /* Index page */
+    /* hero */
+    #hero {
+        height: 40vh
+    }
+
+    .nav-links a {
+        padding-left: 2rem;
+        font-size: 150%;
+    }
+
+    /* About */
+    #about {
+        font-size: 200%;
+    }
+
+    .sub-li {
+        padding-left: 40px;
+        font-size: 1.5rem;
+    }
+
+    /* flyer */
+    .link-btn {
+        padding: 25px 40px;
+        text-shadow: 0px 0px 2px white;
+        width: 100%;  
+    }
+
+    .link-btn>h3 {
+        font-size: 180%;
+        padding: 15px;
+    }
+
+    /* Footer */
+    footer {
+    font-size: 200%;
+    padding: 50px;
+    }
+
+}
+
+/* Media query: larger 4k screens (>=2560px) */
+@media screen and (min-width: 2560px) {
+
+    /* Index page */
+     /* Header */
+    header {
+        font-size: 300%;
+        padding: 50px;
+    }
+
+    /* hero */
+    #hero {
+        height: 1200px;
+    }
+
+    #hero-text {
+        width: 20%;
+        font-size: 300%;
+    }
+
+    /* About */
+    #about {
+        font-size: 400%;
+    }
+
+    .sub-li {
+        padding-left: 60px;
+        font-size: 3rem;
+    }
+
+    /* flyer */
+    .link-btn {
+        padding: 30px 50px;
+        text-shadow: 0px 0px 2px white;
+        width: 100%;  
+    }
+
+    .link-btn>h3 {
+        font-size: 250%;
+        padding: 20px;
+    }
+
+    /* Footer */
+    footer {
+    font-size: 300%;
+    padding: 50px;
     }
 }
