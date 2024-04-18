@@ -301,10 +301,12 @@ picture>img {
     box-shadow: 0.2rem 0.2rem black;
     width: 50%;
     justify-self: center;
+    background-color: #140a58;
+    color: white
 }
 
 #submit-btn:hover {
-    background-color: #140a58;
+    background-color: #223094;
     color: white;
 }
 
