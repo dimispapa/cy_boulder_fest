@@ -221,9 +221,9 @@ picture>img {
     display: grid;
     justify-content: center;
     width: 100%;
-  }
+}
 
-.link-btn > h3 {
+.link-btn>h3 {
     background-color: #140a58;
     color: white;
     padding: 10px;
@@ -232,7 +232,7 @@ picture>img {
 
 .link-btn>h3:hover {
     background-color: #223094;
-  }
+}
 
 /* Registration page */
 #registration-form {
@@ -240,7 +240,7 @@ picture>img {
     background: url("../images/bouldering-woman-action-portrait.webp");
     background-size: cover;
     background-position: 50%;
-    min-height:100vh;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -262,9 +262,10 @@ picture>img {
     margin: 10px 0;
     display: flex;
     max-width: 100%;
-    }
+}
 
-#comp, #intro {
+#comp,
+#intro {
     padding-left: 5px;
 }
 
@@ -305,7 +306,7 @@ picture>img {
 #submit-btn:hover {
     background-color: #140a58;
     color: white;
-  }
+}
 
 /* Gallery */
 #photos img {
@@ -334,18 +335,21 @@ footer {
 }
 
 /* Social network icons */
-#social-icons, #contact {
+#social-icons,
+#contact {
     width: 40%;
     font-size: 1.2rem;
 }
 
-#social-icons li, #contact li {
+#social-icons li,
+#contact li {
     /* display icons in same line which also removes bullets */
     display: inline-block;
     margin: 0 5px;
 }
 
-#social-icons i, #contact i {
+#social-icons i,
+#contact i {
     color: white;
 }
 
@@ -368,6 +372,16 @@ footer p {
 
 #contact {
     width: 30%;
+}
+
+/* 404 */
+#main-404 {
+    padding: 5px;
+}
+
+#main-404>p,
+#main-404>h1 {
+    margin: 10px 5px
 }
 
 /* Media query: tablets and larger (>=768px) */
@@ -413,7 +427,7 @@ footer p {
     #hero {
         height: 40vh
     }
-    
+
     /* About section */
     #about {
         font-size: 130%;
@@ -437,14 +451,15 @@ footer p {
     }
 
     /* footer */
-    #social-icons, #contact {
+    #social-icons,
+    #contact {
         font-size: x-large;
     }
 
 }
 
 /* Media query: laptops and larger (>=992px) */
-@media screen and (min-width: 992px) {  
+@media screen and (min-width: 992px) {
 
     /* index */
     /* hero */
@@ -507,7 +522,7 @@ footer p {
     .link-btn {
         padding: 25px 40px;
         text-shadow: 0px 0px 2px white;
-        width: 100%;  
+        width: 100%;
     }
 
     .link-btn>h3 {
@@ -549,10 +564,11 @@ footer p {
 
     /* Footer */
     footer {
-    padding: 50px;
+        padding: 50px;
     }
 
-    #social-icons, #contact {
+    #social-icons,
+    #contact {
         font-size: 200%;
         padding: 50px;
     }
@@ -567,7 +583,7 @@ footer p {
 @media screen and (min-width: 2560px) {
 
     /* Index page */
-     /* Header */
+    /* Header */
     header {
         font-size: 300%;
         padding: 50px;
@@ -597,7 +613,7 @@ footer p {
     .link-btn {
         padding: 40px 60px;
         text-shadow: 0px 0px 2px white;
-        width: 100%;  
+        width: 100%;
     }
 
     .link-btn>h3 {
@@ -606,14 +622,14 @@ footer p {
     }
 
 
-     /* Registration page */
-     #form-signup {
+    /* Registration page */
+    #form-signup {
         width: 40%;
         font-size: 400%;
     }
 
     /* heading */
-    #registration-form>h2{
+    #registration-form>h2 {
         font-size: 400%;
     }
 
