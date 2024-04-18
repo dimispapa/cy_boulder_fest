@@ -257,13 +257,6 @@ picture>img {
     display: grid;
 }
 
-/* form heading */
-#registration-form > h2 {
-    font-size: medium;
-    text-align: center;
-    font-weight: bolder;
-}
-
 /* Radio */
 #radio {
     margin: 10px 0;
@@ -433,10 +426,6 @@ footer p {
         font-size: 130%;
     }
 
-    #registration-form>h2{
-        font-size: x-large;
-    }
-
     #submit-btn {
         font-size: larger;
     }
@@ -532,11 +521,6 @@ footer p {
         font-size: 200%;
         padding: 20px;
         margin-top: 50px;
-    }
-
-    /* heading */
-    #registration-form>h2{
-        font-size: xx-large;
     }
 
     /* text inputs */
@@ -657,11 +641,6 @@ footer p {
     #submit-btn {
         margin-top: 15px;
         font-size: larger;
-    }
-
-    /* background */
-    #registration-form {
-        background-position: top;
     }
 
     /* Footer */
