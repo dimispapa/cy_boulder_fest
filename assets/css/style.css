@@ -601,6 +601,11 @@ footer p {
         font-size: 2rem;
     }
 
+    /* 404 */
+    #main-404 {
+        font-size: xx-large;
+    }
+
 }
 
 /* Media query: larger 4k screens (>=2560px) */
