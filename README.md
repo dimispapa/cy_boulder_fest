@@ -151,7 +151,7 @@ This website has three main pages and all of them can be accessed via the naviga
 * Comp Submission Scoresheet and Score calculator
 * Integrated Facebook event page with posts feed
 
-## Tools & Tech Stack utilised
+## Tech Stack & Tools utilised
 * HTML was utilised for the main site architecture and content.
 * CSS was utilised mainly for styling, design, layout and limited interactivity.
 * Git was utilised for version control (stage, commit, push).
@@ -163,6 +163,49 @@ This website has three main pages and all of them can be accessed via the naviga
 * ChatGPT4 was used to assist with general queries and to aid with understanding of the various options available in HTML/CSS.
 
 ## Testing
+
+### Code Validation
+
+#### HTML
+
+HTML files were validated using the recommended [HTML W3C Validator](https://validator.w3.org).
+
+| Page             | W3C URL     | Screenshot                                                              | Notes                               |
+| ---------------- | ----------- | ----------------------------------------------------------------------- | ----------------------------------- |
+| About             | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdimispapa.github.io%2Fcy_boulder_fest%2Findex.html)| ![screenshot](documentation/testing/html-validation-index.png)             | Pass: No Errors                     |
+| Gallery | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdimispapa.github.io%2Fcy_boulder_fest%2Fgallery.html) | ![screenshot](documentation/testing/html-validation-gallery.png) | Pass: No Errors |
+| Registration              | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdimispapa.github.io%2Fcy_boulder_fest%2Fregistration.html)              | ![screenshot](documentation/testing/html-validation-registration.png)              | Pass: No Errors |             |
+| 404              | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdimispapa.github.io%2Fcy_boulder_fest%2F404.html)              | ![screenshot](documentation/testing/html-validation-404.png)              | Pass: No Errors                     |
+
+### CSS
+
+The CSS stylesheet was validated using the recommended [W3C CSS "Jigsaw" Validator](https://jigsaw.w3.org/css-validator).
+
+| File      | Jigsaw URL | Screenshot | Notes | Comment |
+| --------- | ---------- | ---------- | ----- | ------- |
+| style.css | [Jigsaw](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdimispapa.github.io%2Fcy_boulder_fest%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) | ![screenshot](documentation/testing/css-validation.png) | Two identical errors: Property font-optical-sizing doesn't exist : auto | This CSS property does exist as documented by [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/font-optical-sizing). This style rule is associated with the "Raleway" font properties as pulled from Google Fonts. ![screenshot](documentation/testing/font-optical-sizing-google.png)
+
+## Lighthouse Audit
+A test was carried out on the deployed website, for the relevant areas using the Lighthouse Audit tool:
+| Page             | Size    | Screenshot                                                        | Notes               |
+| ---------------- | ------- | ----------------------------------------------------------------- | ------------------- |
+| About             | Mobile  | ![screenshot](documentation/testing/lighthouse-audit-index-mobile.png) | No major problems  |
+| About             | Desktop | ![screenshot](documentation/testing/lighthouse-audit-index-desktop.png)    | No major problems   |
+| Gallery           | Mobile  | ![screenshot](documentation/testing/lighthouse-audit-gallery-mobile.png)    | No major problems   |
+| Gallery           | Desktop | ![screenshot](documentation/testing/lighthouse-audit-gallery-desktop.png)   | No major problems   |
+| Registration      | Mobile  | ![screenshot](documentation/testing/lighthouse-audit-registration-mobile.png)      | Some minor warnings |
+| Registration      | Desktop | ![screenshot](documentation/testing/lighthouse-audit-registration-desktop.png)     | No major problems   |
+| 404               | Mobile  | ![screenshot](documentation/testing/lighthouse-audit-404-mobile.png) | No major problems   |
+| 404               | Desktop | ![screenshot](documentation/testing/lighthouse-audit-404-desktop.png) | No major problems   |
+
+## Browser Compatibility
+
+The deployed project was tested on Chrome and Safari for compatibility issues.
+
+| Browser | About                                             | Gallery                                                   | Registration                                                 | 404                                                     | Notes             |
+| ------- | ------------------------------------------------------ | ------------------------------------------------------------ | ---------------------------------------------------------- | -------------------------------------------------------------- | ----------------- |
+| Safari  | ![screenshot](documentation/testing/chrome-index.png)  | ![screenshot](documentation/testing/chrome-gallery.png)  | ![screenshot](documentation/testing/chrome-registration.png)  | ![screenshot](documentation/testing/chrome-404.png)  | No issues noted |
+| Firefox | ![screenshot](documentation/testing/safari-index.png) | ![screenshot](documentation/testing/safari-gallery.png) | ![screenshot](documentation/testing/safari-registration.png) | ![screenshot](documentation/testing/safari-404.png) | No issues noted |
 
 ## Deployment
 
