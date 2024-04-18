@@ -333,7 +333,7 @@ footer {
 /* Social network icons */
 #social-icons, #contact {
     width: 40%;
-    font-size: 130%;
+    font-size: 1.2rem;
 }
 
 #social-icons li, #contact li {
@@ -437,6 +437,11 @@ footer p {
         column-gap: 0;
     }
 
+    /* footer */
+    #social-icons, #contact {
+        font-size: x-large;
+    }
+
 }
 
 /* Media query: laptops and larger (>=992px) */
@@ -465,7 +470,7 @@ footer p {
 
     /* Footer */
     footer {
-        font-size: 130%;
+        font-size: 150%;
         padding: 40px;
     }
 }
