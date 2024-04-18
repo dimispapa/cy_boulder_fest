@@ -22,6 +22,12 @@ The following key elements considered in the design process:
 * Eliminate manual steps in registration and establish a more robust process
 * Eliminate competition scoring submission and counting of results
 
+#### User needs:
+* Central source of key info on the festival
+* Ease of registration and submission of competition scoresheet
+* Understand what the event entails through images and social media posts
+* Post-event engagement through announcement of competition results, sharing of photos/videos and other social media posts
+
 #### Analysis:
 
 | Opportunity/Problem  | Importance (scale 1-5) | Viability/Feasibility |
@@ -32,7 +38,32 @@ The following key elements considered in the design process:
 | Showcase past-event photos | 3 | 5
 | Integrate with FB event page | 1 | 3
 
-#### User needs:
-* Central source of key info on the festival
-* Ease of registration and submission of competition scoresheet
-* Understand what the event entails through images and social media posts
+### Scope
+
+#### Usage Scenarios
+
+1. Potential Festival Participant:
+    * Wants to quickly arrive to and extract event information
+    * Register their participation smoothly without too much hussle
+    * Assess whether they would like to join, based on descriptions, photos and climbing level requirement
+    * Get in touch to volunteer or ask further details
+
+2. Potential Sponsor
+    * Get an initial understanding of the event and if that relates with their business
+    * Get in touch to discuss potential collaboration
+
+#### Selected Features
+1. About Event / Key Information landing page with inspiring hero image and event flyer
+2. Registration Form with clear options (Competition vs Intro to Bouldering session)
+3. Gallery page with photos of past events (to be enriched with more photos from future events)
+
+#### Features assessed but Not selected due to resource constraints
+1. Competition Scoresheet Submission form
+2. Integrated Facebook event page with updates
+
+### Structure
+
+#### Main Audience:
+Climbers or Outdoor enthusiasts with mixed IT skills/experience. Highlights importance for simplicity and clear layout with clear purpose and emphasis on key information and registration.
+
+#### Principles of organisation:
