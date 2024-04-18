@@ -96,3 +96,18 @@ The following colours were defined in the CSS stylesheet:
 To visualise these using a palette for the purposes of documentation, I have used [coolors.co](https://coolors.co/140a58-ffffff-140b58-223094-f8f8ff).
 
 ![screenshot](documentation/cy-boulder-fest-colour-palette.png)
+
+### Typography
+An initial exploration was done with [Google Fonts](https://fonts.google.com/) where Lato was chosen as a font for primary headers. To explore this further, [fontjoy.com](https://fontjoy.com/) was utilised to generate font pairings.
+
+* [Lato](https://fonts.google.com/specimen/Lato) was used for primary headers.
+* [Raleway](https://fonts.google.com/specimen/Lato) was used for secondary headers.
+* [Khula](https://fonts.google.com/specimen/Khula) was used for main body text.
+
+I used [Font Awesome](https://fontawesome.com/) icons to symbolise the following:
+* Social media icons.
+* Contact icons for phone and email.
+* Key info list icons replacing the bullet points.
+
+## Wireframes
+Wireframes were developed using [Balsamiq](https://balsamiq.com/wireframes) for mobile, tablet and laptop/desktop screen sizes.
