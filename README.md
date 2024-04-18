@@ -67,3 +67,32 @@ The following key elements considered in the design process:
 Climbers or Outdoor enthusiasts with mixed IT skills/experience. Highlights importance for simplicity and clear layout with clear purpose and emphasis on key information and registration.
 
 #### Principles of organisation:
+Basic linear structure directing the user in the following order of actions:
+1. Inform themselves about the event through the index/about landing page.
+2. Decide if they want to register straight away through following the links on the index page.
+3. If not, can assess further by visiting the Gallery page, at which point they can access the registration form through the "sticky" navigation menu.
+
+### Skeleton
+1. Index page:
+    * hero image/text clearly setting the tone of event. Sunset vibe with a group of climbers having fun; portraying the beauty of the area and the challenge of rock climbing/bouldering.
+    * Catchy/captivating intro paragraph enticing the user to read on further.
+    * About section with listed key info with the use of icons instead of bullet points.
+    Clearly representing the subject of each list item to help the user to quickly direct their attention to the info they are seeking
+2. Gallery page:
+    * Carefully selected photos to showcase the various parts of the event: community feel, beauty of nature, challenge of climbing hard, night gathering and past competition winners for inspiration.
+3. Registration page:
+    * A clear and not excessive registration form with the necessary required fields and option to select participation to the Competition (if experienced) or the Introductory session (if beginner).
+
+### Colour Scheme
+The colour scheme is based upon the event flyer colour palette, which was designed by a friend designer and climber, Alexander Tellalis. The colours were picked using the colour picker from Chrome Dev Tools. These work well to combine with lighter shades of the main electric blue used for the header/footer. Combined with white, it works well with the sky and sea elements of the hero image.
+
+The following colours were defined in the CSS stylesheet:
+- `#140a58` (main body text colour, header/footer background colour, link/submit button colours)
+- `white` (header/footer text, hero text, registration form text, link/submit button text)
+- `rgb(20 11 88 / 50%)` (transparent box colour - used for hero text box and registration form)
+- `#223094` (colour used when hovering over link/submit buttons)
+- `ghostwhite` (main body background colour)
+
+To visualise these using a palette for the purposes of documentation, I have used [coolors.co](https://coolors.co/140a58-ffffff-140b58-223094-f8f8ff).
+
+![screenshot](documentation/cy-boulder-fest-colour-palette.png)
