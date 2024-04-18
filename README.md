@@ -111,3 +111,61 @@ I used [Font Awesome](https://fontawesome.com/) icons to symbolise the following
 
 ## Wireframes
 Wireframes were developed using [Balsamiq](https://balsamiq.com/wireframes) for mobile, tablet and laptop/desktop screen sizes.
+
+### Mobile Wireframes
+
+<details>
+<summary>Click here to see the Mobile Wireframes</summary>
+PLACEHOLDER
+</details>
+
+### Tablet Wireframes
+
+<details>
+<summary>Click here to see the Tablet Wireframes</summary>
+PLACEHOLDER
+</details>
+
+### Laptop/Desktop Wireframes
+
+<details>
+<summary>Click here to see the Desktop Wireframes</summary>
+PLACEHOLDER
+</details>
+
+## Features
+
+This website has three main pages and all of them can be accessed via the navigation bar, which is fixed as "sticky" at the top of each page. An additional 404.html page was used for the "404 not found error", when the user tries to access a page that does not exist within our website, which gives the user the option to return to the homepage.
+
+### Current Features
+#### Navigation bar
+#### Footer with social media and contact links
+#### Hero image
+#### Responsive Flyer image
+#### Interactive link buttons
+#### Gallery
+#### Registration form
+#### Error 404 page
+
+### Future Features
+* Comp Submission Scoresheet and Score calculator
+* Integrated Facebook event page with posts feed
+
+## Tools & Tech Stack utilised
+* HTML was utilised for the main site architecture and content.
+* CSS was utilised mainly for styling, design, layout and limited interactivity.
+* Git was utilised for version control (stage, commit, push).
+* CodeAnywhere was used as the cloud-based IDE for developing code.
+* GitHub was utilised for storing the pages resources in a secure cloud depository.
+* GitHub Pages was utilised for the live deployment of the website.
+* Chrome DevTools was used to help experiment with CSS styling and debug issues.
+* Balsamiq was a tool used to design wireframes.
+* ChatGPT4 was used to assist with general queries and to aid with understanding of the various options available in HTML/CSS.
+
+## Testing
+
+## Deployment
+
+## Credits
+
+## Acknowledgements
