@@ -152,15 +152,15 @@ This website has three main pages and all of them can be accessed via the naviga
 * Integrated Facebook event page with posts feed
 
 ## Tech Stack & Tools utilised
-* HTML was utilised for the main site architecture and content.
-* CSS was utilised mainly for styling, design, layout and limited interactivity.
-* Git was utilised for version control (stage, commit, push).
-* CodeAnywhere was used as the cloud-based IDE for developing code.
-* GitHub was utilised for storing the pages resources in a secure cloud depository.
-* GitHub Pages was utilised for the live deployment of the website.
-* Chrome DevTools was used to help experiment with CSS styling and debug issues.
-* Balsamiq was a tool used to design wireframes.
-* ChatGPT4 was used to assist with general queries and to aid with understanding of the various options available in HTML/CSS.
+* **HTML** was utilised for the main site architecture and content.
+* **CSS** was utilised mainly for styling, design, layout and limited interactivity.
+* **Git** was utilised for version control (stage, commit, push).
+* **CodeAnywhere** was used as the cloud-based IDE for developing code.
+* **GitHub** was utilised for storing the pages resources in a secure cloud depository.
+* **GitHub Pages** was utilised for the live deployment of the website.
+* **Chrome DevTools** was used to help experiment with CSS styling and debug issues.
+* **Balsamiq** was a tool used to design wireframes.
+* **ChatGPT4** was used to assist with general queries and to aid with understanding of the various options available in HTML/CSS.
 
 ## Testing
 
@@ -207,7 +207,17 @@ The deployed project was tested on Chrome and Safari for compatibility issues.
 | Safari  | ![screenshot](documentation/testing/chrome-index.png)  | ![screenshot](documentation/testing/chrome-gallery.png)  | ![screenshot](documentation/testing/chrome-registration.png)  | ![screenshot](documentation/testing/chrome-404.png)  | No issues noted |
 | Firefox | ![screenshot](documentation/testing/safari-index.png) | ![screenshot](documentation/testing/safari-gallery.png) | ![screenshot](documentation/testing/safari-registration.png) | ![screenshot](documentation/testing/safari-404.png) | No issues noted |
 
+## Device Testing Responsiveness
+
 ## Deployment
+The site was deployed to GitHub Pages. The steps to deploy were as follows:
+* Navigate to the "Settings" tab in the [GitHub repository](https://github.com/dimispapa/cy_boulder_fest).
+* Go to "Pages" in the "Code and automation" section.
+* Under the "Build and deployment" section, select the **Main** branch in the dropdown, ensure the "root" folder is selected, and then click "Save".
+* The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+* The page might take a few minutes to be fully deployed and live. Can monitor the "Deployments" ribbon back in the main GitHub repository.
+
+[Click here to view the live deployed website](https://dimispapa.github.io/cy_boulder_fest/)
 
 ## Credits
 
