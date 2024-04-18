@@ -331,24 +331,31 @@ footer {
 }
 
 /* Social network icons */
-#social-icons {
+#social-icons, #contact {
     width: 40%;
     font-size: 130%;
 }
 
-#social-icons li {
+#social-icons li, #contact li {
     /* display icons in same line which also removes bullets */
     display: inline-block;
     margin: 0 5px;
 }
 
-#social-icons i {
+#social-icons i, #contact i {
     color: white;
 }
 
 /* target last icon to remove margin on right */
-#social-icons li:last-child {
+#social-icons li:last-child,
+#contact li:last-child {
     margin-right: 0;
+}
+
+/* paragraphs */
+footer p {
+    font-size: 0.8rem;
+    font-style: oblique;
 }
 
 /* Contact info */
