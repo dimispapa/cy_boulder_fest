@@ -254,9 +254,12 @@ picture>img {
     font-weight: bolder;
 }
 
+/* Radio */
 #radio {
     margin: 10px 0;
-}
+    display: inline-flex;
+    padding-left: 10px;
+    }
 
 /* dropdown */
 #team-size {
@@ -425,7 +428,6 @@ footer {
     /* Register page */
     #form-signup {
         width: 30%;
-        margin-right: 30px;
     }
 
     /* Gallery */
@@ -474,6 +476,43 @@ footer {
     .link-btn>h3 {
         font-size: 180%;
         padding: 15px;
+    }
+
+    /* Registration page */
+    #form-signup {
+        width: 35%;
+        font-size: 200%;
+        padding: 20px;
+        margin-top: 50px;
+    }
+
+    /* heading */
+    #registration-form>h2{
+        font-size: xx-large;
+    }
+
+    /* text inputs */
+    .input-text {
+        font-size: x-large;
+        height: 3rem
+    }
+
+    /* select dropdown */
+    #team-size {
+        font-size: x-large;
+        height: 3rem
+    }
+
+    /* radio */
+    input[type=radio] {
+        border: 0px;
+        width: 30%;
+        height: 2rem;
+    }
+
+    /* submit button */
+    #submit-btn {
+        font-size: x-large;
     }
 
     /* Footer */
