@@ -1,4 +1,4 @@
-#CYPRUS BOULDERING FESTIVAL
+# CYPRUS BOULDERING FESTIVAL
 
 The Cyprus Bouldering Festival is the only outdoor bouldering event in Cyprus, geared towards climbers of all abilities. It entails a friendly competition for more experienced climbers and an "Intro to Bouldering" session for beginners. It is an annual event organised in the western part of Cyprus, in the area around the villages of Inia and Droushia in the Paphos region.
 
