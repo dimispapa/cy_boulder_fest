@@ -116,7 +116,19 @@ Wireframes were developed using [Balsamiq](https://balsamiq.com/wireframes) for 
 
 <details>
 <summary>Click here to see the Mobile Wireframes</summary>
-PLACEHOLDER
+
+* About Page
+
+    ![screenshot](documentation/wireframes/mobile-wireframe-index.png)
+
+* Gallery Page
+
+    ![screenshot](documentation/wireframes/mobile-wireframe-gallery.png)
+
+* Registration Page
+
+    ![screenshot](documentation/wireframes/mobile-wireframe-registration.png)
+
 </details>
 
 ### Tablet Wireframes
@@ -242,7 +254,7 @@ The site was deployed to GitHub Pages. The steps to deploy were as follows:
 ### Content
 | Source | Use | Type | Notes | 
 | ----- | --- | ----- | ----- | 
-|Silvio Augusto Rusmigo| Hero image, 404 background image, registration background image, gallery (50% of photos) | Photography/Images | All rights reserved - through agreed collaboration for Cyprus Bouldering Guide project |
+|Silvio Augusto Rusmigo| Hero image, 404 background image, registration background image, gallery (majority of photos) | Photography/Images | All rights reserved - through agreed collaboration for Cyprus Bouldering Guide project |
 | Alexander Tellalis | flyer images | Graphic design | All rights reserved - through agreed piece of work |
 
 
