@@ -135,15 +135,40 @@ Wireframes were developed using [Balsamiq](https://balsamiq.com/wireframes) for 
 
 <details>
 <summary>Click here to see the Tablet Wireframes</summary>
-PLACEHOLDER
+
+* About Page
+
+    ![screenshot](documentation/wireframes/tablet-wireframe-index.png)
+
+* Gallery Page
+
+    ![screenshot](documentation/wireframes/tablet-wireframe-gallery.png)
+
+* Registration Page
+
+    ![screenshot](documentation/wireframes/tablet-wireframe-registration.png)
+
 </details>
 
-### Laptop/Desktop Wireframes
+### Large Laptop/Desktop Wireframes
 
 <details>
 <summary>Click here to see the Desktop Wireframes</summary>
-PLACEHOLDER
+
+* About Page
+
+    ![screenshot](documentation/wireframes/desktop-wireframe-index.png)
+
+* Gallery Page
+
+    ![screenshot](documentation/wireframes/desktop-wireframe-gallery.png)
+
+* Registration Page
+
+    ![screenshot](documentation/wireframes/desktop-wireframe-registration.png)
+
 </details>
+
 
 ## Features
 
