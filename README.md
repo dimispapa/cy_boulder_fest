@@ -176,17 +176,46 @@ This website has three main pages and all of them can be accessed via the naviga
 
 ### Current Features
 #### Navigation bar
+The navigation bar is always visible to the user so that an ease of access to all pages is facilitated. 
+
+It is responsive depending on the viewport size. For mobiles and small tablets the menu is hidden under the burger icon as a standard best practice for saving space, with expanding header once clicked. For the larger devices the menu is always visible. When hovering over, the menu becomes bold to improve UX and the current page is underlined.
+
 #### Footer with social media and contact links
+The footer contains clickable social media with known icons for Instagram, Facebook and Youtube where the user can open links in new tabs to explore more about the event through posts, photos and videos.
+
+Prospective sponsors/collaborators/participants can also easily get in touch through the contact icons, via phone or email. These are placed at the bottom of the screen as part of the normal flow of the page, once the user has gotten an idea about the event and if they have further queries they need addressed or want to learn more.
+
 #### Hero image
+A carefully selected hero image portrays the festival vibe at the golden hour with a group of climbers having fun at a beautiful natural spot, epitomises what the event is about.
+
+The Hero text "Challenge Yourself on Rock" attempts to lure the viewer in to read further and get excited about participating and testing their limits.
+
 #### Responsive Flyer image
+Having a three different options of the flyer, it was decided to take advantage of this by applying a responsive picture element where depending on the viewport size and orientation, the browser would pick the appropriate file to render. For instance for wider screens, the wider version is applied to make use of empty space without distorting the image or taking up too much vertical space.
+
+
 #### Interactive link buttons
+Emphasis has been placed to ensure that the links to the registration page are clearly visible and obvious to the user who is looking to get signed up quickly. A number of links are positioned across the About landing page, with the links above/below the flyer styled as buttons with interactive hover-over feature and shadow to make it more obvious that they are clickable.
+
 #### Gallery
+A simple yet powerful Gallery page with quality images has the aim of summarizing at a glance what the event is about, complementing the About page nicely. The gallery is responsive by taking up surplus horizontal space as the viepwort increases, stacking photos in columns in grid-style.
+
 #### Registration form
+The registration form is built to only take the minimum required info for a quick and easy sign-up process. Fields that are required are programmed as such and validation is in place for email.
+
+A background image of a climber in action aims to instil further excitement to the user about registering and joining the action.
+
 #### Error 404 page
+This page aims to redirect the user back to the main page in case they accidentally enter an invalid URL or page that does not exist. An attempt to make use of some humour and ligh-hearted vibe, even if the user is frustrated that they are trying to access a broken link.
+
+A dark/night-shot picture was chosen to indicate that the user was lost and is looking to get back to the "lighted" boulder.
 
 ### Future Features
-* Comp Submission Scoresheet and Score calculator
-* Integrated Facebook event page with posts feed
+#### Comp Submission Scoresheet and Score calculator
+For this year's event, this has been already developed using Jotform for the electronic submission of scoresheets and feeding that in a Python script that calculates the scores based on a scoring system input file. However to see how we can incorporate this in a more streamlined process as part of this webpage in the future.
+
+#### Integrated Facebook event page with posts feed and Youtube video channel
+This was initially part of the possible features in the design phase, however due to lack of time it was decided to focus on the other key features. To include this in the future as well as an integrated Youtube video channel to enrich the UX further.
 
 ## Tech Stack & Tools utilised
 * **HTML** was utilised for the main site architecture and content.
@@ -247,6 +276,7 @@ The deployed project was tested on Chrome and Safari for compatibility issues.
 
 ## Device Testing Responsiveness
 
+
 ## Deployment
 The site was deployed to GitHub Pages. The steps to deploy were as follows:
 * Navigate to the "Settings" tab in the [GitHub repository](https://github.com/dimispapa/cy_boulder_fest).
@@ -274,7 +304,8 @@ The site was deployed to GitHub Pages. The steps to deploy were as follows:
 | [GitHub](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#lists)| Readme | Markdown Cheatsheet - general |
 | [Rory Patrick Sheridan](https://github.com/Ri-Dearg) | Header | Use of sticky position property |
 | [aditus.io](https://www.aditus.io/aria/aria-label/#:~:text=You%20should%20use%20it%20when,technology%2C%20such%20as%20screen%20readers.) | Contact | Use of aria-labels |
-| [MDN web docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture) | Flyer image | use of picture element for responsive img/source application
+| [MDN web docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture) | Flyer image | use of picture element for responsive img/source application |
+| [CI Love Running Walkthrough Project](https://github.com/dimispapa/ci-love_running) | Gallery style | inspiration for the gallery type used |
 
 ### Content
 | Source | Use | Type | Notes | 
@@ -285,4 +316,5 @@ The site was deployed to GitHub Pages. The steps to deploy were as follows:
 
 ## Acknowledgements
 * I would like to thank my Code Institute mentor, Rory Patrick Sheridan, for the support and useful tips during this project.
+* Many thanks to Alex Tellalis for the beautiful flyer he produced for the real event happening soon and the many amazing photos by Silvio Rusmigo that just elevate any content!
 * I would like to also thank my partner, Georgina Christou, for the useful views when it comes to the colour scheme and fixing the overall design aesthetics.
