@@ -161,6 +161,7 @@ This website has three main pages and all of them can be accessed via the naviga
 * **Chrome DevTools** was used to help experiment with CSS styling and debug issues.
 * **Balsamiq** was a tool used to design wireframes.
 * **ChatGPT4** was used to assist with general queries and to aid with understanding of the various options available in HTML/CSS.
+* **Convertio.co** was utilised to convert jpeg/png images to webp format.
 
 ## Testing
 
@@ -221,4 +222,30 @@ The site was deployed to GitHub Pages. The steps to deploy were as follows:
 
 ## Credits
 
+### Technical
+
+| Source                                        | Use                       | Notes                                                  |
+| --------------------------------------------- | ------------------------- | ------------------------------------------------------ |
+| [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/#summary) | Version Control | Help write Git commit messages |
+| [Bouldering Favicon by Icons8](https://icons8.com) | Favicon on page head | Multiple resolutions used to avoid rendering issues |
+| [Fontjoy](https://fontjoy.com/) | Font Pairing | Used to pair fonts with Lato |
+| [Google Fonts](https://fonts.google.com/) | Imported Fonts | Imported in stylesheet |
+| [StackOverflow](https://stackoverflow.com/questions/19006653/bullets-in-unordered-list-not-contained-within-the-block) | Lists | Nest bullet points inside container |
+| [FontAwesome](https://fontawesome.com/) | Icons | Social media and Contact icons |
+| [FontAwesome](https://docs.fontawesome.com/web/style/lists#:~:text=Use%20fa%2Dul%20and%20fa,default%20bullets%20in%20unordered%20lists.&text=You%20can%20also%20keep%20the,but%20use%20icon%20bullets%20visually.) | List Icons | Replace list bullets with icons |
+| [GitHub docs](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/organizing-information-with-tables) | Readme | How to write tables in markdown |
+| [GitHub](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#lists)| Readme | Markdown Cheatsheet - general |
+| [Rory Patrick Sheridan](https://github.com/Ri-Dearg) | Header | Use of sticky position property |
+| [aditus.io](https://www.aditus.io/aria/aria-label/#:~:text=You%20should%20use%20it%20when,technology%2C%20such%20as%20screen%20readers.) | Contact | Use of aria-labels |
+| [MDN web docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture) | Flyer image | use of picture element for responsive img/source application
+
+### Content
+| Source | Use | Type | Notes | 
+| ----- | --- | ----- | ----- | 
+|Silvio Augusto Rusmigo| Hero image, 404 background image, registration background image, gallery (50% of photos) | Photography/Images | All rights reserved - through agreed collaboration for Cyprus Bouldering Guide project |
+| Alexander Tellalis | flyer images | Graphic design | All rights reserved - through agreed piece of work |
+
+
 ## Acknowledgements
+* I would like to thank my Code Institute mentor, Rory Patrick Sheridan, for the support and useful tips during this project.
+* I would like to also thank my partner, Georgina Christou, for the useful views when it comes to the colour scheme and fixing the overall design aesthetics.
