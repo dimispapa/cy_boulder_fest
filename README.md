@@ -274,8 +274,18 @@ The deployed project was tested on Chrome and Safari for compatibility issues.
 | Safari  | ![screenshot](documentation/testing/chrome-index.png)  | ![screenshot](documentation/testing/chrome-gallery.png)  | ![screenshot](documentation/testing/chrome-registration.png)  | ![screenshot](documentation/testing/chrome-404.png)  | No issues noted |
 | Firefox | ![screenshot](documentation/testing/safari-index.png) | ![screenshot](documentation/testing/safari-gallery.png) | ![screenshot](documentation/testing/safari-registration.png) | ![screenshot](documentation/testing/safari-404.png) | No issues noted |
 
-## Device Testing Responsiveness
+## Device Bug Testing - Responsiveness
+The website responsiveness and operation was tested on the following physical devices, in addition to testing on Chrome DevTools on a variety of devices:
 
+* iPhone 12 Pro - iOS 17.4.1:
+    | About | Gallery | Registration | 404 |
+    | ---------- | ---------- | ---------- | ---------- |
+    |![screenshot](documentation/testing/iphone12pro-about.jpeg) |   ![screenshot](documentation/testing/iphone12pro-gallery.jpeg) | ![screenshot](documentation/testing/iphone12pro-registration.jpeg) | ![screenshot](documentation/testing/iphone12pro-404.jpeg)
+
+* MacBook Pro 15-inch 2018- macOS Sonoma 14.3.1:
+    | About | Gallery | Registration | 404 |
+    | ---------- | ---------- | ---------- | ---------- |
+    |![screenshot](documentation/testing/macbookpro15-about.png) |   ![screenshot](documentation/testing/macbookpro15-gallery.png) | ![screenshot](documentation/testing/macbookpro15-registration.png) | ![screenshot](documentation/testing/macbookpro15-404.png)
 
 ## Deployment
 The site was deployed to GitHub Pages. The steps to deploy were as follows:
