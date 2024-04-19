@@ -588,13 +588,13 @@ footer p {
 
     /* Footer */
     footer {
-        padding: 50px;
+        padding: 5px;
     }
 
     #social-icons,
     #contact {
-        font-size: 200%;
-        padding: 50px;
+        font-size: 150%;
+        padding: 20px;
     }
 
     footer p {
@@ -690,8 +690,9 @@ footer p {
 
     /* Footer */
     footer {
-        font-size: 300%;
-        padding: 50px;
+        font-size: 250%;
+        padding: 5px;
+        max-height: fit-content;
     }
 
     footer p {
