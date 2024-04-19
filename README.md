@@ -282,10 +282,14 @@ The website responsiveness and operation was tested on the following physical de
     | ---------- | ---------- | ---------- | ---------- |
     |![screenshot](documentation/testing/iphone12pro-about.jpeg) |   ![screenshot](documentation/testing/iphone12pro-gallery.jpeg) | ![screenshot](documentation/testing/iphone12pro-registration.jpeg) | ![screenshot](documentation/testing/iphone12pro-404.jpeg)
 
+Result: Operates as expected
+
 * MacBook Pro 15-inch 2018- macOS Sonoma 14.3.1:
     | About | Gallery | Registration | 404 |
     | ---------- | ---------- | ---------- | ---------- |
     |![screenshot](documentation/testing/macbookpro15-about.png) |   ![screenshot](documentation/testing/macbookpro15-gallery.png) | ![screenshot](documentation/testing/macbookpro15-registration.png) | ![screenshot](documentation/testing/macbookpro15-404.png)
+
+Result: Operates as expected
 
 ## Deployment
 The site was deployed to GitHub Pages. The steps to deploy were as follows:
