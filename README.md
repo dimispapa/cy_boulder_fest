@@ -191,7 +191,7 @@ A carefully selected hero image portrays the festival vibe at the golden hour wi
 The Hero text "Challenge Yourself on Rock" attempts to lure the viewer in to read further and get excited about participating and testing their limits.
 
 #### Responsive Flyer image
-Having a three different options of the flyer, it was decided to take advantage of this by applying a responsive picture element where depending on the viewport size and orientation, the browser would pick the appropriate file to render. For instance for wider screens, the wider version is applied to make use of empty space without distorting the image or taking up too much vertical space.
+Having a three different options of the flyer, it was decided to take advantage of this by applying a responsive picture element where depending on the viewport size and orientation, the browser would pick the appropriate file to render. This does not require the use of media queries in the CSS file, but makes use of embedded media and srcset parameters in the picture element. For instance, for wider screens, the wider version is applied to make use of empty space without distorting the image or taking up too much vertical space.
 
 
 #### Interactive link buttons
